@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+}
+.cart-summary {
+  margin-top: 20px;
+}
+.warning {
+  color: red;
+  font-weight: bold;
+}
